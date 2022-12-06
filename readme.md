@@ -29,14 +29,6 @@ Enterprise version includes:
 
 We keep 80% of our code base open source on MPC, and 20% closed source. Help us continue improving MPC by contributing to the open source part of the code base or by buying the Enterprise version so that we keep pouring more resources into open source MPC.
 
-## Table of contents:
-
-- [Introduction to MPC](#presentation-of-RockEngine)
-	+ [What is RockEngine?](#what-is-RockEngine)
-	+ [How does is work?](#how-does-it-work)
-	+ [How is structured RockEngine?](#how-is-structured-RockEngine)
-	+ [The packages](#the-packages)
-- [Test RockEngine on examples](#test-rockengine-on-examples)
 
 ## __Introduction to MPC__
 
@@ -81,10 +73,6 @@ Thus he gets a encrypted output *Z*.
 ```go
 // test0 is just a ratio computation of 2 private inputs
 go run main.go build Tests/test0.js
-```
-```output
-/tmp/main.go:6:4: expression in go must be function call
-/tmp/main.go:6:8: syntax error: unexpected main at end of statement
 ```
 ---
 
