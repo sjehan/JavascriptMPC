@@ -29,7 +29,20 @@ Enterprise version includes:
 
 We keep 80% of our code base open source on MPC, and 20% closed source. Help us continue improving MPC by contributing to the open source part of the code base or by buying the Enterprise version so that we keep pouring more resources into open source MPC.
 
+## **Setup**
+### Installation
+Before using RockEngine, you need to install the following dependencies:
+- Go (https://golang.org/doc/install)
 
+---
+```
+go get github.com/robertkrimen/otto/ast
+go get github.com/robertkrimen/otto/token
+go get golang.org/x/crypto/sha3
+go get github.com/mitchellh/cli
+make privacy
+```
+---
 ## __Introduction to MPC__
 
 ### What is RockEngine?
@@ -157,21 +170,6 @@ In addition to this we have:
 - __Tests__, a folder used to store test JavaScript files.
 
 
-
-## **Setup**
-### Installation
-Before using RockEngine, you need to install the following dependencies:
-- Go (https://golang.org/doc/install)
-
----
-```
-go get github.com/robertkrimen/otto/ast
-go get github.com/robertkrimen/otto/token
-go get golang.org/x/crypto/sha3
-go get github.com/mitchellh/cli
-make privacy
-```
----
 ### builder
 
 Builder creates boolean circuits from JavaScript program.
