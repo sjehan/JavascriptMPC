@@ -6,7 +6,7 @@ The input algorithms are in Javascript, making it easy to use in the browser, or
 
 MPC can allow to solve problems such as:
 1. Private set intersection (PSI) of two (or more) parties lists
-2. Sign a message with a private key, without revealing the private key (shared on several parties)
+2. Sign a message with a private key, without revealing the private key to any party (splitted among several parties)
 3. Compute a function on a private input, without revealing the input (shared on several parties)
 4. Match some orders from remote orderbooks, without revealing the orders (shared on several parties)
 5. Do survey results aggregation, without revealing the answers (shared on several parties)
